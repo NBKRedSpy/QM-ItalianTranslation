@@ -1,8 +1,17 @@
 [h1]Quasimorph ItalianTranslation[/h1]
 
 
-An Italian Translation mod.
-Note that this is currently machine translated.
+Adds an Italian translation to the game.
+This is currently machine translated and only works the the unstable beta.
+
+Google Translate:
+
+Aggiunge la traduzione in italiano al gioco.
+Attualmente si tratta di una traduzione automatica e funziona solo nella versione beta instabile.
+
+[h1]Help With Translation[/h1]
+
+If you would like to help with translation, contribute to the github repository found [url=https://github.com/NBKRedSpy/QM-ItalianTranslation]here[/url] or message me on the game's official Discord server.
 
 [h1]Translation Export[/h1]
 
@@ -44,4 +53,4 @@ Thanks!
 
 [h1]Source Code[/h1]
 
-Source code is available on GitHub at https://github.com/NBK_RedSpy/ItalianTranslation
+Source code is available on GitHub at https://github.com/NBKRedSpy/QM-ItalianTranslation
