@@ -11,24 +11,28 @@ Aggiunge la traduzione in italiano al gioco.
 Attualmente si tratta di una traduzione automatica e funziona solo nella versione beta instabile.
 
 # Help With Translation
-If you would like to help with translation, contribute to the github repository found [here](https://github.com/NBKRedSpy/QM-ItalianTranslation) or message me on the game's official Discord server.
 
-# Translation Export
+Currently the text is machine translated.  
 
-A copy of the game's translation text will be written to 
-`%AppData%\..\LocalLow\Magnum Scriptum Ltd\Quasimorph_ModConfigs\ItalianTranslation\localization_export.tsv` for reference.
+You can help fix any translation through GitHub at https://github.com/NBKRedSpy/QM-ItalianTranslation. The localization file is `./src/localization.tsv`. If you prefer, you can also contact me on the game's official Discord server.
+
+To test your changes locally, edit the file at \<SteamDir\>\steamapps\workshop\content\2059170\3758584967\localization.tsv. Replace \<SteamDir\> with your Steam install directory.
+
+Back the file up first since Steam may overwrite it when the mod is updated.
+
+## Example Localization File
+
+To assist with translating, file named `%UserProfile%\AppData\LocalLow\Magnum Scriptum Ltd\Quasimorph_ModConfigs\ItalianTranslation\localization_export.tsv` will contain an English version of the localization file.  This will be overwritten if the game makes any changes to the localization.
 
 # Configuration
 
 The configuration file will be created on the first game run and can be found at `%AppData%\..\LocalLow\Magnum Scriptum Ltd\Quasimorph_ModConfigs\ItalianTranslation\config.json`.
 
-
 |Name|Default|Description|
 |--|--|--|
 |ExportData|true|Exports the game's localization text to the configuration directory.|
 
-
-# Buy Me a Coffee
+# Support
 If you enjoy my mods and want to buy me a coffee, check out my [Ko-Fi](https://ko-fi.com/nbkredspy71915) page.
 Thanks!
 

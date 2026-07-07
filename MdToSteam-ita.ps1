@@ -1,0 +1,1 @@
+& "C:\src\Utility\MarkdownToSteam\MarkdownToSteam\bin\Release\net6.0\MarkdownToSteam.exe" -i ReadMe-ita.md -o SteamReadMe-ita.txt -r

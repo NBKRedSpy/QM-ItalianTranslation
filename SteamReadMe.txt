@@ -11,12 +11,17 @@ Attualmente si tratta di una traduzione automatica e funziona solo nella version
 
 [h1]Help With Translation[/h1]
 
-If you would like to help with translation, contribute to the github repository found [url=https://github.com/NBKRedSpy/QM-ItalianTranslation]here[/url] or message me on the game's official Discord server.
+Currently the text is machine translated.
 
-[h1]Translation Export[/h1]
+You can help fix any translation through GitHub at https://github.com/NBKRedSpy/QM-ItalianTranslation. The localization file is [i]./src/localization.tsv[/i]. If you prefer, you can also contact me on the game's official Discord server.
 
-A copy of the game's translation text will be written to
-[i]%AppData%\..\LocalLow\Magnum Scriptum Ltd\Quasimorph_ModConfigs\ItalianTranslation\localization_export.tsv[/i] for reference.
+To test your changes locally, edit the file at <SteamDir>\steamapps\workshop\content\2059170\3758584967\localization.tsv. Replace <SteamDir> with your Steam install directory.
+
+Back the file up first since Steam may overwrite it when the mod is updated.
+
+[h2]Example Localization File[/h2]
+
+To assist with translating, file named [i]%UserProfile%\AppData\LocalLow\Magnum Scriptum Ltd\Quasimorph_ModConfigs\ItalianTranslation\localization_export.tsv[/i] will contain an English version of the localization file.  This will be overwritten if the game makes any changes to the localization.
 
 [h1]Configuration[/h1]
 
@@ -40,7 +45,7 @@ The configuration file will be created on the first game run and can be found at
 [/tr]
 [/table]
 
-[h1]Buy Me a Coffee[/h1]
+[h1]Support[/h1]
 
 If you enjoy my mods and want to buy me a coffee, check out my [url=https://ko-fi.com/nbkredspy71915]Ko-Fi[/url] page.
 Thanks!
