@@ -31,7 +31,6 @@ namespace ItalianTranslation
 
             //Force to overwrite the player prefs. 
             //  This is more of a niciety so the user doesn't have to go to the language settings on first run.
-            //  TODO:  Verify - If the mod is removed, I think it will keep reverting to English and throw errors.
             PlayerPrefs.SetInt("LocalizationManager.currentLang", (int)CustomLanguageId);
             __instance.currentLang = CustomLanguageId;
 
