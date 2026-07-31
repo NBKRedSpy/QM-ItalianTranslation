@@ -38,7 +38,7 @@ namespace ItalianTranslation
             {
                 try
                 {
-                    LocalizationExport(Path.Combine(Plugin.ConfigDirectories.ModPersistenceFolder, "localization_export.tsv"));
+                    LocalizationExport(Plugin.Config.ArchiveOldData, Path.Combine(Plugin.ConfigDirectories.ModPersistenceFolder, "localization_export.tsv"));
                 }
                 catch (Exception ex)
                 {
@@ -52,19 +52,26 @@ namespace ItalianTranslation
         /// Writes out the localization 
         /// </summary>
         /// <param name="outputFileName"></param>
-        private static void LocalizationExport(string outputFileName)
+        private static void LocalizationExport(bool archiveOldData, string outputFileName)
         {
             TextAsset textAsset = Resources.Load("localization") as TextAsset;
-            WriteIfDifferent(outputFileName, textAsset.text);
+            WriteIfDifferent(archiveOldData, outputFileName, textAsset.text);
         }
 
         /// <summary>
         /// Writes the file if the data is different from what is already on disk.
         /// </summary>
-        private static void WriteIfDifferent(string exportFilePath, string output)
+        private static void WriteIfDifferent(bool archiveOldData, string exportFilePath, string output)
         {
-            if (!File.Exists(exportFilePath) || File.ReadAllText(exportFilePath) != output)
+            bool fileExists = File.Exists(exportFilePath);
+            if (!fileExists || File.ReadAllText(exportFilePath) != output)
             {
+                if (archiveOldData && fileExists)
+                {
+                    string archiveFilePath = $"{exportFilePath}.{DateTime.Now:yyyyMMddHHmmssfff}";
+                    File.Move(exportFilePath, archiveFilePath);
+                }
+
                 File.WriteAllText(exportFilePath, output);
             }
         }

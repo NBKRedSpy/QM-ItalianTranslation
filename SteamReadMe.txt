@@ -1,13 +1,10 @@
 [h1]Quasimorph ItalianTranslation[/h1]
 
-
 Adds an Italian translation to the game.
-This is currently machine translated and only works the the unstable beta.
 
 Google Translate:
 
 Aggiunge la traduzione in italiano al gioco.
-Attualmente si tratta di una traduzione automatica e funziona solo nella versione beta instabile.
 
 [h1]Help With Translation[/h1]
 
@@ -43,6 +40,14 @@ The configuration file will be created on the first game run and can be found at
 [td]Exports the game's localization text to the configuration directory.
 [/td]
 [/tr]
+[tr]
+[td]ArchiveOldData
+[/td]
+[td]false
+[/td]
+[td]If true, if the data has changed, the previous file will be renamed to a time stamped file.
+[/td]
+[/tr]
 [/table]
 
 [h1]Support[/h1]
@@ -59,3 +64,11 @@ Thanks!
 [h1]Source Code[/h1]
 
 Source code is available on GitHub at https://github.com/NBKRedSpy/QM-ItalianTranslation
+
+[h1]Changes[/h1]
+
+[h2]1.0.1[/h2]
+[list]
+[*]1.0 beta compatibility
+[*]Added archiving of old exported data.
+[/list]

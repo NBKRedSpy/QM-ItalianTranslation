@@ -11551,3 +11551,11 @@ achieve.wicked_souls.desc
 achieve.wicked_souls.name	
 achieve.woody_moves.desc	
 achieve.woody_moves.name	
+item.tech_hfg_1.name	HFC
+item.tech_hfg_1.name	HFC
+story.civ_1_manifesto.dlg.stage3_jane_server_destroyed	Il server SBN è stato distrutto, rendendo impossibile per ora attuare il piano di Issachar. Tuttavia, abbiamo ancora la possibilità di evacuare l'agente e tornare con i rinforzi.
+story.civ_5b_sacred.dlg.jane_promesefs_death	Prometeo è morto, quindi l'obiettivo non può più essere completato senza di lui. Puoi comunque evacuare da questo maledetto centro di comando.
+story.rwa_5b_carnage.dlg.stage3_jane_urparp_death	Abbiamo portato Urparp sulla Terra, ma non siamo riusciti ad aiutarlo a rimanere ancorato. Questo fallimento provocherà senza dubbio la sua ira. Avete ancora la possibilità di evacuare, in modo che il nostro lavoro nel Sistema Solare possa continuare.
+story.tez_2_interplan.dlg.stage1_jane_herald_death	Senza il servitore, Tezctlan non potrà aprire il cancello per Duggur. Evacuate dalla stazione, e potremmo riprovare. Immagino che a Tezctlan non manchino psicopompi come questo.
+story.xio_4_tonatiuh.dlg.jane_xiomara_death	Xiomara è stata espulsa dal mondo fisico. Non avremmo mai dovuto permettere che ciò accadesse. L'evacuazione verso il Magnum è autorizzata, ma la nostra missione qui è fallita.
+story.xio_5_shattered.dlg.jane_xiomara_death	Non avremmo mai dovuto permettere che Xiomara venisse smembrata qui. La nostra missione è fallita. Avete la possibilità di evacuare e preservare per noi una risorsa così preziosa.

@@ -15,6 +15,11 @@ namespace ItalianTranslation
     {
         public bool ExportData { get; set; } = true;
 
+        /// <summary>
+        /// If true, if the data has changed, the previous file will be renamed to a time stamped file.
+        /// </summary>
+        public bool ArchiveOldData { get; set; } = false;
+
         public static ModConfig LoadConfig(string configPath)
         {
             ModConfig config;
