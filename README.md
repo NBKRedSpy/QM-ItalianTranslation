@@ -6,6 +6,4 @@ The translation has been extensively reviewed in-game, with particular attention
 
 Some untranslated, outdated, or context-dependent strings may still remain. Contributions and reports are welcome.
 
-## 1.0.1
-* 1.0 beta compatibility
-* Added archiving of old exported data.
+
