@@ -795,7 +795,7 @@ item.class.Parts	Parti
 item.class.Pills	Pillole
 item.class.PlaceableObstacle	Coperture portatili
 item.class.QuasiArtefact	Manufatti
-item.class.QuasiAug	Aumenti quasimorfici
+item.class.QuasiAug	Impianti quasimorfici
 item.class.QuasiOrgan	Organi quasimorfi
 item.class.QuasiPact	Patti
 item.class.QuestItem	Elementi importanti
@@ -9241,7 +9241,7 @@ trait.painful_crits.desc	I colpi critici infliggono %FPainCritMult:Percent100NoP
 trait.painful.desc	colpi infliggono %FPainDamageMult:Percentuale100NoPlus% di dolore
 trait.perfect_throw	Lanci precisi
 trait.perfect_throw.desc	Lanciando quest'arma si colpisce sempre il bersaglio
-trait.piercing	Pierce Good
+trait.piercing	Penetrante
 trait.piercing_throw	Lanci perforanti
 trait.piercing_throw.desc	Il lancio di quest'arma è garantito per trafiggere il bersaglio attraverso
 trait.piercing.desc	Ha una probabilità %FPierce:Percentuale100NoPlus% di perforare
@@ -9990,7 +9990,7 @@ ui.intro.bubble7	"Armati della speranza che l'ora più buia preceda l'alba, cerc
 ui.itemproduction.all	Tutto
 ui.itemproduction.ammo	munizioni
 ui.itemproduction.armors	armatura
-ui.itemproduction.augmentations	aumenti
+ui.itemproduction.augmentations	impianti
 ui.itemproduction.medicine	medicinale
 ui.itemproduction.meleeweapons	arma da mischia
 ui.itemproduction.other	altro
@@ -10349,7 +10349,7 @@ ui.mercclass.range	combattimento a distanza
 ui.mercclass.visiondistance	distanza di visione
 ui.mercclass.weaponsdamage	bonus danni
 ui.mercclass.wound_chance_mult	Subisci Mod. Ferita
-ui.mgmodifier.AGSTDropAugsOnAmp	Aumenti in caso di amputazione
+ui.mgmodifier.AGSTDropAugsOnAmp	Impianti in caso di amputazione
 ui.mgmodifier.AGSTImplantGainChanceOnAmp	Estrazione dell'impianto
 ui.mgmodifier.AGSTNoHealthDebuff	Nessuna perdita di potenza
 ui.mgmodifier.AGSTQuasiAugs	Aumenti quasimorfici
