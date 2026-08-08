@@ -1,48 +1,10 @@
-# Quasimorph ItalianTranslation
+# Quasimorph ItalianTranslation - Revision Fork
 
-![thumbnail icon](media/thumbnail.png)
+This fork provides a revised and updated Italian localization for Quasimorph, based on the original ItalianTranslation mod by NBKRedSpy.
 
-Adds an Italian translation to the game.
+The translation has been extensively reviewed in-game, with particular attention to terminology consistency, readability, UI context, and compatibility with the latest game updates. Machine-translated strings have been progressively corrected and reworked while preserving the original structure of the mod.
 
-Google Translate:
-
-Aggiunge la traduzione in italiano al gioco.
-
-# Help With Translation
-
-Currently the text is machine translated.  
-
-You can help fix any translation through GitHub at https://github.com/NBKRedSpy/QM-ItalianTranslation. The localization file is `./src/localization.tsv`. If you prefer, you can also contact me on the game's official Discord server.
-
-To test your changes locally, edit the file at \<SteamDir\>\steamapps\workshop\content\2059170\3758584967\localization.tsv. Replace \<SteamDir\> with your Steam install directory.
-
-Back the file up first since Steam may overwrite it when the mod is updated.
-
-## Example Localization File
-
-To assist with translating, file named `%UserProfile%\AppData\LocalLow\Magnum Scriptum Ltd\Quasimorph_ModConfigs\ItalianTranslation\localization_export.tsv` will contain an English version of the localization file.  This will be overwritten if the game makes any changes to the localization.
-
-# Configuration
-
-The configuration file will be created on the first game run and can be found at `%AppData%\..\LocalLow\Magnum Scriptum Ltd\Quasimorph_ModConfigs\ItalianTranslation\config.json`.
-
-|Name|Default|Description|
-|--|--|--|
-|ExportData|true|Exports the game's localization text to the configuration directory.|
-|ArchiveOldData|false|If true, if the data has changed, the previous file will be renamed to a time stamped file.|
-
-# Support
-If you enjoy my mods and want to buy me a coffee, check out my [Ko-Fi](https://ko-fi.com/nbkredspy71915) page.
-Thanks!
-
-# Credits
-* Italian flag [Italy icons created by verluk - Flaticon](https://www.flaticon.com/free-icons/italy)
-* Thumbnail annotation from https://addtext.com/
-
-# Source Code
-Source code is available on GitHub at https://github.com/NBKRedSpy/QM-ItalianTranslation
-
-# Changes
+Some untranslated, outdated, or context-dependent strings may still remain. Contributions and reports are welcome.
 
 ## 1.0.1
 * 1.0 beta compatibility
