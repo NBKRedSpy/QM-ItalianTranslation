@@ -1,48 +1,10 @@
-# Quasimorfo Traduzione Italiana
+# Quasimorph ItalianTranslation - Fork di revisione
 
-![icona miniatura](media/thumbnail.png)
+Questa fork offre una versione revisionata e aggiornata della localizzazione italiana di Quasimorph, basata sulla mod ItalianTranslation originale di NBKRedSpy.
 
-Aggiunge una traduzione italiana al gioco.
-Questo è attualmente tradotto automaticamente e funziona solo con la versione beta unstable.
+La traduzione è stata ampiamente revisionata direttamente in gioco, con particolare attenzione alla coerenza terminologica, alla leggibilità, al contesto dell'interfaccia e alla compatibilità con gli ultimi aggiornamenti del gioco. Le stringhe tradotte automaticamente sono state progressivamente corrette e rielaborate, mantenendo inalterata la struttura originale della mod.
 
-Google Traduttore:
-
-Aggiunge la traduzione in italiano al gioco.
-Attualmente si tratta di una traduzione automatica e funziona solo nella versione beta instabile.
-
-# Aiuto con la traduzione
-
-Attualmente il testo è tradotto automaticamente.
-
-Puoi aiutare a correggere qualsiasi traduzione tramite GitHub su https://github.com/NBKRedSpy/QM-ItalianTranslation. Il file di localizzazione è `./src/localization.tsv`. Se preferisci puoi contattarmi anche sul server Discord ufficiale del gioco.
-
-Per testare le modifiche localmente, modifica il file in \<SteamDir\>\steamapps\workshop\content\2059170\3758584967\localization.tsv. Sostituisci \<SteamDir\> con la directory di installazione di Steam.
-
-Eseguire prima il backup del file poiché Steam potrebbe sovrascriverlo quando la mod viene aggiornata.
-
-## Esempio di file di localizzazione
-
-Per facilitare la traduzione, il file denominato "%UserProfile%\AppData\LocalLow\Magnum Scriptum Ltd\Quasimorph_ModConfigs\ItalianTranslation\localization_export.tsv" conterrà una versione inglese del file di localizzazione. Questo verrà sovrascritto se il gioco apporta modifiche alla localizzazione.
-
-#Configurazione
-
-Il file di configurazione verrà creato alla prima esecuzione del gioco e può essere trovato in "%AppData%\..\LocalLow\Magnum Scriptum Ltd\Quasimorph_ModConfigs\ItalianTranslation\config.json".
-
-|Nome|Predefinito|Descrizione|
-|--|--|--|
-|ExportData|true|Esporta il testo di localizzazione del gioco nella directory di configurazione.|
-|ArchiveOldData|false|Se vero, se i dati sono cambiati, il file precedente verrà rinominato in un file con timestamp.|
-
-#Supporto
-Se ti piacciono le mie mod e vuoi offrirmi un caffè, dai un'occhiata alla mia pagina [Ko-Fi](https://ko-fi.com/nbkredspy71915).
-Grazie!
-
-#Crediti
-* Bandiera italiana [icone dell'Italia create da verluk - Flaticon](https://www.flaticon.com/free-icons/italy)
-* Annotazione in miniatura da https://addtext.com/
-
-# Codice sorgente
-Il codice sorgente è disponibile su GitHub all'indirizzo https://github.com/NBKRedSpy/QM-ItalianTranslation
+Potrebbero essere ancora presenti alcune stringhe non tradotte, obsolete o la cui traduzione dipende dal contesto. Contributi e segnalazioni sono benvenuti.
 
 # Modifiche
 
