@@ -6,5 +6,5 @@ La traduzione è stata ampiamente revisionata direttamente in gioco, con partico
 
 Potrebbero essere ancora presenti alcune stringhe non tradotte, obsolete o la cui traduzione dipende dal contesto. Contributi e segnalazioni sono benvenuti.
 
-#Changelog
+# Changelog
 Update for 1.0.1v
