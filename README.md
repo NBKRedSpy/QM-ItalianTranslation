@@ -44,6 +44,10 @@ Source code is available on GitHub at https://github.com/NBKRedSpy/QM-ItalianTra
 
 # Changes
 
+## 1.1
+* Review and correction of all localization as needed by Steam user Puch89. 
+    * A huge thanks for the work.  For context, that entails proofing 176,000 words across 11,500 entries.
+
 ## 1.0.1
 * 1.0 beta compatibility
 * Added archiving of old exported data.
