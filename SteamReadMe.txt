@@ -1,5 +1,6 @@
 [h1]Quasimorph ItalianTranslation[/h1]
 
+
 Adds an Italian translation to the game.
 
 Google Translate:
@@ -66,6 +67,14 @@ Thanks!
 Source code is available on GitHub at https://github.com/NBKRedSpy/QM-ItalianTranslation
 
 [h1]Changes[/h1]
+
+[h2]1.1[/h2]
+[list]
+[*]Review and correction of all localization as needed by Steam user Puch89.
+[list]
+[*]A huge thanks for the work.  For context, that entails proofing 176,000 words across 11,500 entries.
+[/list]
+[/list]
 
 [h2]1.0.1[/h2]
 [list]
