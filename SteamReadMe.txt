@@ -68,6 +68,11 @@ Source code is available on GitHub at https://github.com/NBKRedSpy/QM-ItalianTra
 
 [h1]Changes[/h1]
 
+[h2]1.1.1[/h2]
+[list]
+[*]Improved compatibility with legacy mods.
+[/list]
+
 [h2]1.1[/h2]
 [list]
 [*]Review and correction of all localization as needed by Steam user Puch89.

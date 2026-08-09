@@ -25,6 +25,10 @@
 			<HintPath>$(ManagedPath)Assembly-CSharp.dll</HintPath>
 			<Private>False</Private>
 		</Reference>
+		<Reference Include="Unity.TextMeshPro">
+			<HintPath>$(ManagedPath)Unity.TextMeshPro.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
 		<Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
 			<SpecificVersion>False</SpecificVersion>
 			<HintPath>$(ManagedPath)UnityEngine.dll</HintPath>
@@ -65,7 +69,7 @@
 	<Target Name="NoSteamIdMessage" Condition="'$(SteamId)'==''" AfterTargets="PostBuildEvent">
 		<Message Importance="high" Text="The SteamId is not set in the project.  Aborting Steam Workshop folder deployment." />
 	</Target>
-		
+
 	<Target Name="SteamWorkshopDeploy" Condition="'$(SteamId)'!=''" AfterTargets="PostBuildEvent">
 		<Message Importance="high" Text="Deploying to: $(WorkshopPath)" />
 		<ItemGroup>
@@ -87,9 +91,9 @@
 		<ZipDirectory SourceDirectory="$(PackageFolder)" DestinationFile="$(PackageFolder)../$(TargetName).zip" Overwrite="true" />
 	</Target>
 	<ItemGroup>
-	  <None Update="localization.tsv">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
+		<None Update="localization.tsv">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
 	</ItemGroup>
 	<ItemGroup>
 		<Reference Update="System">

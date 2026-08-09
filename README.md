@@ -43,6 +43,8 @@ Thanks!
 Source code is available on GitHub at https://github.com/NBKRedSpy/QM-ItalianTranslation
 
 # Changes
+## 1.1.1
+* Improved compatibility with legacy mods.
 
 ## 1.1
 * Review and correction of all localization as needed by Steam user Puch89. 

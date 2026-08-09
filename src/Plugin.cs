@@ -5,9 +5,11 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
+using System.Runtime.Remoting.Contexts;
 using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace ItalianTranslation
 {
@@ -20,8 +22,8 @@ namespace ItalianTranslation
 
         public static Logger Logger = new Logger();
 
-        [Hook(ModHookType.AfterConfigsLoaded)]
-        public static void AfterConfig(IModContext context)
+        [Hook(ModHookType.BeforeBootstrap)]
+        public static void BeforeBootstrap(IModContext context)
         {
 
             Directory.CreateDirectory(ConfigDirectories.ModPersistenceFolder);
@@ -31,4 +33,5 @@ namespace ItalianTranslation
             new Harmony("NBK_RedSpy_" + ConfigDirectories.ModAssemblyName).PatchAll();
         }
     }
+
 }

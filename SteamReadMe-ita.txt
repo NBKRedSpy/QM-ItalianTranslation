@@ -69,6 +69,11 @@ Il codice sorgente è disponibile su GitHub all'indirizzo https://github.com/NBK
 
 [h1]Modifiche[/h1]
 
+[h2]1.1.1[/h2]
+[list]
+[*]Migliorata la compatibilità con le mod meno recenti.
+[/list]
+
 [h2]1.1[/h2]
 [list]
 [*]Revisione e correzione dell'intera localizzazione a cura dell'utente Steam Puch89.

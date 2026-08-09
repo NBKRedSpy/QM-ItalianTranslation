@@ -89,12 +89,7 @@ namespace ItalianTranslation
 
             db[CustomLanguageId] = translationItems;
 
-            //--- Set the language to use the default font
-            SingletonMonoBehaviour<LocalizationFontKeeper>.Instance.FontPresets
-                .DoIf(
-                    x => x.AvaialableLangs.Contains(Localization.Lang.EnglishUS),
-                    x => x.AvaialableLangs.Add(CustomLanguageId)
-                    );
+            //Note - Setting this language's font has to be set in a different patch as there are mods that are incompatible.
         }
 
         /// <summary>

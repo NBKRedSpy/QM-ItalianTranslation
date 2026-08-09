@@ -45,6 +45,9 @@ Grazie!
 Il codice sorgente è disponibile su GitHub all'indirizzo https://github.com/NBKRedSpy/QM-ItalianTranslation
 
 # Modifiche
+## 1.1.1
+* Migliorata la compatibilità con le mod meno recenti.
+
 ## 1.1
 * Revisione e correzione dell'intera localizzazione a cura dell'utente Steam Puch89.
 * Un sentito ringraziamento per il lavoro svolto. Per dare un'idea dell'entità dell'intervento: si è trattato di revisionare 176.000 parole distribuite su 11.500 voci.
